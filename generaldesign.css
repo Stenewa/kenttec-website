@@ -1,0 +1,166 @@
+:root{
+--img-style: ;
+--positioning-section: 20px; 
+--section-border: 5px yellowgreen; 
+--font-format: ;
+--header-format: ;
+}
+.body_container{
+	 background: rgba(0,154,1, 0.9);
+	 padding: 20px;
+	 height: auto;
+
+
+}
+.home{
+	padding-top: 0;
+	margin-top: 0;
+}
+.navbar{
+	padding-top: 0;
+	margin-top: 0;
+}
+strong{
+display: block;
+font-size: 1.1em;
+}
+.nav_one, .nav_two , .list_one {
+	margin: var(--positioning-section) ;
+	margin-top: 30px;
+background: rgba(62, 243, 134, 0.7);
+border: 3px solid limegreen;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+z-index: 0;
+height: auto;
+padding-top: 30px;
+padding-right: 30px;
+padding-left: 30px;
+align-content: center;
+align-items: center;
+font-size: 15em;
+
+}
+p{
+	padding-bottom: 20px;
+}
+h3{
+	font-size:28px ;
+}
+h2{
+background: green;
+padding: 20px;
+font-size: 30px;
+align-self: center;
+text-align: center;
+align-content: center;
+
+display: block;
+border-radius: inherit;
+margin-bottom: 10px;
+
+
+}
+.nav_one p{
+	width: 50%;
+	display: inline-block;
+}
+
+
+.img_one{
+	vertical-align: top;
+	align-self:flex-end;
+	width: 40%;
+	display: inline;
+
+}
+.img_one img{
+	
+	width: 40%;
+	height: 10%;
+	display: inline;
+	border: 1px solid yellowgreen;
+	border-radius: 4px;
+	}
+
+.p_one{
+	width: 50%;
+	display: inline-block;
+	padding-bottom: 5px;
+	
+
+}
+.p_two{
+	width: 100%;
+	display: block;
+}
+.img_two{
+	width: 50%;
+	height: 100%;
+	display: inline;
+	border: 1px solid yellowgreen;
+	border-radius: 4px;
+	float: right;
+}
+.img_two img{
+	
+	width: 100%;
+	height: 100%;
+	}
+.ul_list p{
+	font-size: 28px;
+	text-underline-position: auto;
+	text-decoration-line: underline;
+}
+.ul_list li{
+	font-size: 20px;
+	padding: 3px;
+	align-self: center;
+	list-style: disc;
+	margin-left: 5px;
+	color: darkgreen;
+
+}
+.tnt_navone a{
+	color: darkgreen;
+}
+a:hover{
+	color: yellowgreen;
+}
+
+
+table{
+	border: 3px solid yellowgreen;
+	background: rgba(255, 255, 255, 0.2);
+	padding: 20px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	margin-bottom: 20px;
+
+}
+.tr_header{
+	border:2px solid yellowgreen;
+	border-radius: inherit;
+	background: green;
+	padding: 20px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	
+}
+tr{
+	border-bottom: 1px solid green ;
+
+}
+tr:hover{
+	background: yellowgreen;
+}
+td{
+	padding: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	text-align: left;
+}
